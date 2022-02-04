@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+    
 
 *{
     padding: 0;
@@ -6,12 +8,15 @@
     background-color: black;
     font-family: 'Orbitron', sans-serif;
 }
+/* Navigation bar with logo, categorires and cart */
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 10px;
+    border: 5px solid #EB7D46;
 }
-
+/* List; male, female */
 .list{
     list-style: none;
     color: white;
@@ -19,32 +24,41 @@ nav{
     font-size: 20px;
     gap: 50px;
     font-weight: 1000;
-    padding-left: 600px;
+    padding-left: 700px;
 }
-
+.list:hoover{
+    color: orange;
+    transition: 0.4s;
+}
+/* The logo in the nav bar */
 .logo{
-    width: 140px;
-    height: 140px;
-}
-.cart{
-    width: 60px;
-    height: 60px;
-    padding-right: 80px;
-}
-
-header{
-    background-color: #FFEBCC;
+    width: 120px;
     height: 120px;
-    display: flex;
-    z-index: 1;
+    padding-left: 20px;
 }
+/* Cart symbol in nav bar */
+.cart{
+    width: 42px;
+    height: 42px;
+    padding-right: 60px;
+    padding-left: 15px;
+    border-left: 2px solid white;
+}
+/* The evren high moto */
+header{
+    background-color: #fda95b;
+    height: 100px;
+    display: flex;
+}
+/* The evren high image */
 .moto{
     height: 80px;
-    padding-top: 25px;
+    padding-top: 15px;
     padding-left: 320px;
-    background-color: #FFEBCC;
+    background-color: #fda95b;
 }
 
+/* The also so called banner - astronaut image */
 article{
     position: relative;
     width: 100%;
@@ -53,7 +67,7 @@ article{
 article img{
     width: 100%;
 }
-
+/* Buttons over the image 1male 2female*/
 article .button1{
     position: absolute;
     top: 72%;
@@ -85,6 +99,7 @@ article .button2{
     border-radius: 12px;
     width: 128px;
 }
+
 footer{
     font-family: 'Open Sans', sans-serif;
     color: white;
@@ -112,4 +127,5 @@ footer{
 
 .owner{
     padding-top: 30px;
+    padding-bottom: 30px;
 }
