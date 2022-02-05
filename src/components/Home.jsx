@@ -1,22 +1,14 @@
-import logo from "../imagenes/logo.png"
-import cart from "../imagenes/cart.png"
 import evren from "../imagenes/evren.png"
 import banner from "../imagenes/banner-tablet.jpg"
-import styles from "../components/Home.module.css"
+import styles from "../styles/Home.module.css"
 import insta from "../imagenes/insta.png"
 import whats from "../imagenes/whatsapp.png"
+import Navbar from "./Navbar"
 
 const Home = () =>{
     return(
         <div className={styles.homesection}>
-            <nav>
-            <img src={logo} className={styles.logo} alt="Website logo"/>
-            <ul  className={styles.list}>
-                <li>Hombre</li>
-                <li>Mujer</li>
-            </ul>
-            <img src={cart} className={styles.cart} alt="Shopping cart" />
-        </nav>
+            <Navbar/>
         <header className={styles.header}>
             <img src={evren} className={styles.moto} alt="Store moto" />
         </header>
