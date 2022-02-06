@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
     
 
 *{
@@ -8,42 +7,7 @@
     background-color: black;
     font-family: 'Orbitron', sans-serif;
 }
-/* Navigation bar with logo, categorires and cart */
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 10px;
-    border: 5px solid #EB7D46;
-}
-/* List; male, female */
-.list{
-    list-style: none;
-    color: white;
-    display: flex;
-    font-size: 20px;
-    gap: 50px;
-    font-weight: 1000;
-    padding-left: 700px;
-}
-.list:hoover{
-    color: orange;
-    transition: 0.4s;
-}
-/* The logo in the nav bar */
-.logo{
-    width: 120px;
-    height: 120px;
-    padding-left: 20px;
-}
-/* Cart symbol in nav bar */
-.cart{
-    width: 42px;
-    height: 42px;
-    padding-right: 60px;
-    padding-left: 15px;
-    border-left: 2px solid white;
-}
+
 /* The evren high moto */
 header{
     background-color: #fda95b;
@@ -100,32 +64,3 @@ article .button2{
     width: 128px;
 }
 
-footer{
-    font-family: 'Open Sans', sans-serif;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-right: 30px;
-}
-.socialmedia{
-    display: flex;
-    gap: 55px
-}
-.lastName{
-    color: red;
-}
-.title, .contact, .social{
-    color: orange;
-    padding-top: 5px;
-    padding-bottom: 15px;
-}
-
-.mark, .number{
-    padding-bottom:20px;
-}
-
-.owner{
-    padding-top: 30px;
-    padding-bottom: 30px;
-}

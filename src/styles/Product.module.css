@@ -1,0 +1,17 @@
+.listOfProducts{
+    background-color: #f8f9fa;
+    flex: 2;
+    margin: 0;
+    min-width: 280px;
+    height: 520px;
+    padding-left: 35px;
+}
+.listOfProducts img{
+    height: 70%;
+}
+.infoProduct{
+    color: black;
+    background-color: #f8f9fa;
+
+
+}
