@@ -1,37 +1,26 @@
 import React from 'react';
-import { useEffect } from "react"
-import { useParams } from "react-router-dom"
-import { useState } from "react/cjs/react.development"
+import { useParams } from 'react-router-dom';
 import { products } from '../data';
 
-const OneProduct = () =>{
 
-    const [product, setProduct] = useState ();
-    const {prodId, otroValor} = useParams()
+const OneProduct = () => {
+    const {id} = useParams();
 
-    useEffect(() =>{
-        products(prodId).then (async (prod) => setProduct(prod))
-    }, [prodId])
+    const product = products.find(product => product.id ==  id);
+    console.log(product)
+  return (
+  <div className='eachProduct'> 
+  <div className='eachImg'>
+      <img src={product.img} alt="A picture of each product" />
+  </div >
+  <div className='productText'>
+      <h2>{product.category}</h2>
+      <p>{product.description}</p>
+      <h3>{product.price}</h3>
+      <h3>Talla:<br/> {product.size}</h3>
+  </div>
+  </div>
+  )
+};
 
-    setTimeout(() =>{
-
-
-    },2000)
-
-return(
-    <div>
-        {
-            <div>
-            <h1>{product.category}</h1>
-          <img src={product.img} alt="" />
-          <p>Status: {product.size}</p>
-          {/* <p>Specie: {character.species}</p>
-          <p>Gender: {character.gender}</p>
-          <p>Planet: {character.origin.name}</p> */}
-            </div>
-        }
-    </div>
-
-)
-}
-export default OneProduct
+export default OneProduct;

@@ -6,12 +6,9 @@ import Navbar from './Navbar';
 import Product from './Product';
 import styles from "../styles/Products.module.css"
 import { Link } from 'react-router-dom';
+// import { eachProduct } from '../Api';
 // import Product from './Product';
 
-// {products.map(item=>(
-//     <Product item={item} key={item.id}/>
-
-// ))}
 
 const Products = () => {
   return(
@@ -39,6 +36,8 @@ const Products = () => {
       {products.map(({id, category, description, price, size, color, gender, img})=>(
           <Product id={id} category={category} description={description} price={price} 
           size={size} color={color} gender={gender} img={img} key={id}/>
+          
+          
       ))}
       </section>
       </section>

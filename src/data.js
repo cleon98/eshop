@@ -11,8 +11,7 @@ export const products = [
           ],
         color: "Yellow",
         gender: [
-            "Hombre",
-            "Mujer"
+            "Hombre"
           ],
           img: "https://jsonformatter.org/img/tom-cruise.jpg"
         },
@@ -28,8 +27,7 @@ export const products = [
           ],
           color: "Light Blue",
           gender: [
-            "Hombre",
-            "Mujer"
+            "Hombre"
           ],
           img: "https://jsonformatter.org/img/tom-cruise.jpg"
         },
@@ -41,8 +39,7 @@ export const products = [
           size: [],
           color: "black",
           gender: [
-            "Hombre",
-            "Mujer"
+            "Hombre"
           ],
           img: "https://jsonformatter.org/img/tom-cruise.jpg"
         },
@@ -58,16 +55,15 @@ export const products = [
           ],
           color: "Blue",
           gender: [
-            "Hombre",
-            "Mujer"
+            "Hombre"
           ],
           img: "https://jsonformatter.org/img/tom-cruise.jpg"
         },
         {
           id: 5,
           category: "Camiseta",
-          description: "Diseño love",
-          price: "$15.000",
+          description: "Diseño money",
+          price: "$23.000",
           size: [
             "s",
             "m",
@@ -75,8 +71,7 @@ export const products = [
           ],
           color: "Yellow",
           gender: [
-            "Hombre",
-            "Mujer"
+            "Hombre"
           ],
           img: "https://jsonformatter.org/img/tom-cruise.jpg"
         },
@@ -92,8 +87,7 @@ export const products = [
           ],
           color: "Lavender",
         gender: [
-            "Hombre",
-            "Mujer"
+            "Hombre"
           ],
           img: "https://jsonformatter.org/img/tom-cruise.jpg"
         },
@@ -109,7 +103,6 @@ export const products = [
           ],
           color: "White",
           gender: [
-            "Hombre",
             "Mujer"
           ],
           img: "https://jsonformatter.org/img/tom-cruise.jpg"
@@ -126,7 +119,6 @@ export const products = [
           ],
           color: "black",
           gender: [
-            "Hombre",
             "Mujer"
           ],
           img: "https://jsonformatter.org/img/tom-cruise.jpg"
@@ -143,7 +135,6 @@ export const products = [
           ],
           color: "Multicolor",
           gender: [
-            "Hombre",
             "Mujer"
           ],
           img: "https://jsonformatter.org/img/tom-cruise.jpg"
@@ -160,7 +151,6 @@ export const products = [
           ],
           color: "Gray",
           gender: [
-            "Hombre",
             "Mujer"
           ],
           img: "https://jsonformatter.org/img/tom-cruise.jpg"
@@ -177,7 +167,6 @@ export const products = [
           ],
           color: "black",
           gender: [
-            "Hombre",
             "Mujer"
           ],
           img: "https://jsonformatter.org/img/tom-cruise.jpg"
@@ -194,7 +183,6 @@ export const products = [
           ],
           color: "White",
           gender: [
-            "Hombre",
             "Mujer"
           ],
           img: "https://jsonformatter.org/img/tom-cruise.jpg"

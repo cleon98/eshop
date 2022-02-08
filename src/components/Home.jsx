@@ -4,6 +4,7 @@ import styles from "../styles/Home.module.css"
 import Navbar from "./Navbar"
 import Footer from "./Footer"
 
+
 const Home = () =>{
     return(
         <div className={styles.homesection}>
