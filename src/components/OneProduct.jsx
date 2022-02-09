@@ -1,6 +1,9 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { products } from '../data';
+import Navbar from './Navbar';
+import Footer from './Footer';
+import styles from "../styles/OneProduct.module.css"
 
 
 const OneProduct = () => {
@@ -8,17 +11,26 @@ const OneProduct = () => {
 
     const product = products.find(product => product.id ==  id);
     console.log(product)
+
   return (
-  <div className='eachProduct'> 
-  <div className='eachImg'>
-      <img src={product.img} alt="A picture of each product" />
+      <div>
+      <Navbar/>
+  <div className={styles.eachProduct}> 
+  <div className= {styles.eachImage}>
+      <img className={styles.productImg} src={product.img} alt="Each product that is sold in the store" />
   </div >
-  <div className='productText'>
-      <h2>{product.category}</h2>
-      <p>{product.description}</p>
-      <h3>{product.price}</h3>
-      <h3>Talla:<br/> {product.size}</h3>
+  <div className={styles.infoProductBox}>
+      <h2 className={styles.productText}>{product.category}</h2>
+      <p className={styles.productText}>{product.description}</p>
+      <h3 className={styles.productText}>{product.price}</h3>
+      <h3 className={styles.productText}>Talla:<br/> {product.size}</h3>
+      <h3 className={styles.productText}>Color:<br/> {product.color}</h3>
   </div>
+  </div>
+  <div className={styles.buttonAdd}>
+      <button className={styles.buttonOneProduct}> Añadelo a tu carrito</button>
+  </div>
+  <Footer/>
   </div>
   )
 };
