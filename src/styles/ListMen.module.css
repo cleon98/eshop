@@ -1,4 +1,4 @@
-.listOfProducts{
+.eachMen{
     background-color: #f8f9fa;
     flex: 2;
     margin: 0;
@@ -6,7 +6,8 @@
     height: 520px;
     padding-left: 35px;
 }
-.listOfProducts img{
+
+.eachMen img{
     height: 70%;
 }
 .infoProduct{

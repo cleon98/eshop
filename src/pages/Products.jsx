@@ -12,15 +12,12 @@ const Products = () => {
       <section className={styles.infoCatalog}>
       <h1>Catálogo</h1>
       </section>
-      <section className={styles.categories}>
-
       <section className={styles.allProducts} >
       {products.map(({id, category, description, price, size, color, gender, img})=>(
           <Product id={id} category={category} description={description} price={price} 
           size={size} color={color} gender={gender} img={img} key={id}/>
 
       ))}
-      </section>
       </section>
       <Footer/>
   </div>

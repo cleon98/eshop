@@ -7,9 +7,7 @@
 .allProducts a{
     text-decoration: none;
 }
-.categories{
-    background-color: #f8f9fa;
-}
+
 .infoCatalog h1{
     color: black;
     display: flex;

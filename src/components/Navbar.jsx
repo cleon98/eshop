@@ -13,7 +13,7 @@ const navbar = () => {
                 <li><Link to="/productos/hombre">Hombre</Link></li>
                 <li><Link to="/productos/mujer">Mujer</Link></li>
             </ul>
-           <Link to="./cart"><img src={cart} className={styles.cart} alt="Shopping cart" /></Link> 
+           <Link to="/cart"><img src={cart} className={styles.cart} alt="Shopping cart" /></Link> 
         </nav>
   </div>;
 };

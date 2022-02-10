@@ -3,27 +3,17 @@
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: #f8f9fa;
-    flex: 2;
-    margin: 0;
-    min-width: 280px;
-    height: 520px;
-    padding-left: 35px;
 }
 
-.onlyWomen img{
-    height: 70%;
+.stylesWomen a{
+    text-decoration: none;
 }
-.infoProduct{
-    color: black;
-    background-color: #f8f9fa;
 
-
-}
 .titleHeader h1{
-        color: black;
-        display: flex;
-        justify-content: center;
-        font-size: 50px;
-        background-color: #f8f9fa;
-        padding: 50px 0px ;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    background-color: #f8f9fa;
+    padding: 50px 0px ;
 }

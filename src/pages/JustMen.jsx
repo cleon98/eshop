@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../components/Footer";
 import { products } from "../data";
 import Navbar from "../components/Navbar";
-import styles from "../styles/JustWomen.module.css";
+import styles from "../styles/JustMen.module.css"
 import ListMen from "../components/ListMen"
 
 const JustMen = () => {
@@ -13,7 +13,7 @@ const JustMen = () => {
       <section className={styles.titleHeader}>
       <h1>Hombre</h1>
       </section>
-      <div className={styles.stylesWomen}>
+      <div className={styles.stylesMen}>
       {products.filter((product) => product.gender == "Hombre").map((filteredProduct) => (
         <ListMen id={filteredProduct.id} category={filteredProduct.category} description={filteredProduct.description}
         price={filteredProduct.price} size={filteredProduct.size} color={filteredProduct.color} img={filteredProduct.img}
