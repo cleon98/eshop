@@ -12,10 +12,10 @@ const Footer = () => {
             <p className={styles.number}>+57 302 8312 876</p>
             <h3 className={styles.social}>Redes sociales</h3>
             <div className={styles.socialmedia}>
-                <img src={insta} alt="Redirect to website insta" />
-                <img src={whats} alt="Redirect to whatsapp" />
+               <a href="https://www.instagram.com/evren_ib/?hl=es-la" target="_blank"><img src={insta} alt="Redirect to website insta" /></a> 
+                <a href='https://wa.me/573028312876' target="_blank"><img src={whats} alt="Redirect to whatsapp" /></a>
             </div>
-            <h3 className={styles.owner}>Sitio web diseñado por: Cristian <span className={styles.lastName}>Leon</span></h3>
+            <h3 className={styles.owner}>Sitio web diseñado por: <a href='https://portfolio-cristian.netlify.app/' target="_blank">Cristian <span className={styles.lastName}>Leon</span></a></h3>
         </footer>
   </div>;
 };

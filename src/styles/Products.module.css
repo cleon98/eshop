@@ -1,7 +1,7 @@
 .allProducts{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    justify-content: space-around;
     background-color: #f8f9fa;
 }
 .allProducts a{
@@ -18,42 +18,5 @@
     background-color: #f8f9fa;
     padding: 50px 0px ;
 }
-.webDesign{
-    margin-left: 15px;
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    border: 3px solid black;
-    height: 550px;
-    position: sticky;
-    border-radius: 10px;
-}
 
-.webDesign ul{
-    font-weight: bolder;
-    color: red;
-    font-size: 30px;
-    background-color: #fff;
-    list-style: none;
-}
-.webDesign li{
-    color: black;
-    font-weight:normal;
-    font-size: 20px;
-    padding: 15px 0px;
-    background-color: #fff;
-    text-decoration: none;
-}
-.webDesign img{
-    height: 100px;
-    background-color: #fff;
-}
 
-.categories{
-    display: flex;
-}
-.logoCatalog{
-    background-color: #fff;
-}
