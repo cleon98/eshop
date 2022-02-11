@@ -2,9 +2,9 @@
     background-color: #f8f9fa;
     flex: 2;
     margin: 0;
-    min-width: 280px;
-    height: 520px;
-    padding-left: 35px;
+    min-width: 17.5rem;
+    height: 32.5rem;
+    padding-left: 2.188rem;
 }
 .listOfProducts img{
     height: 70%;

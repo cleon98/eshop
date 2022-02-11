@@ -4,29 +4,29 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-right: 30px;
-    padding-top: 20px;
+    padding-right: 1.875rem;
+    padding-top: 1.25rem;
 }
 .socialmedia{
     display: flex;
-    gap: 55px
+    gap: 3.438rem;
 }
 .lastName{
     color: red;
 }
 .title, .contact, .social{
     color: orange;
-    padding-top: 5px;
-    padding-bottom: 15px;
+    padding-top: 0.313rem;
+    padding-bottom: 0.938rem;
 }
 
 .mark, .number{
-    padding-bottom:20px;
+    padding-bottom:1.25rem;
 }
 
 .owner{
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
 }
 
 .owner a{
