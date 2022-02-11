@@ -10,10 +10,10 @@ const navbar = () => {
            <Link to="/"><img src={logo} className={styles.logo} alt="Website logo"/></Link>
             <ul  className={styles.list}>
                 <li><Link to="/productos">Catálogo</Link></li>
-                <li>Hombre</li>
-                <li>Mujer</li>
+                <li><Link to="/productos/hombre">Hombre</Link></li>
+                <li><Link to="/productos/mujer">Mujer</Link></li>
             </ul>
-            <img src={cart} className={styles.cart} alt="Shopping cart" />
+           <Link to="/cart"><img src={cart} className={styles.cart} alt="Shopping cart" /></Link> 
         </nav>
   </div>;
 };

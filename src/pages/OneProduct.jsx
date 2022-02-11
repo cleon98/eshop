@@ -1,16 +1,17 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { products } from '../data';
-import Navbar from './Navbar';
-import Footer from './Footer';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import styles from "../styles/OneProduct.module.css"
+import GoToTop from '../components/onTop';
+import { Link } from 'react-router-dom';
 
 
 const OneProduct = () => {
     const {id} = useParams();
 
     const product = products.find(product => product.id ==  id);
-    console.log(product)
 
   return (
       <div>
@@ -22,14 +23,16 @@ const OneProduct = () => {
   <div className={styles.infoProductBox}>
       <h2 className={styles.productText}>{product.category}</h2>
       <p className={styles.productText}>{product.description}</p>
-      <h3 className={styles.productText}>{product.price}</h3>
+      <h3 className={styles.productText}>$ {product.price}</h3>
       <h3 className={styles.productText}>Talla:<br/> {product.size}</h3>
-      <h3 className={styles.productText}>Color:<br/> {product.color}</h3>
+      <h3 className={styles.productText}>Color:<br/>{product.color}</h3>
   </div>
   </div>
-  <div className={styles.buttonAdd}>
+  <div className={styles.buttons}>
       <button className={styles.buttonOneProduct}> Añadelo a tu carrito</button>
+      <Link className={styles.linkCart} to="/cart"><button className={styles.buttonGoCart}> Ve al carrito</button></Link>
   </div>
+  <GoToTop/>
   <Footer/>
   </div>
   )
