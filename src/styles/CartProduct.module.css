@@ -1,0 +1,25 @@
+
+.cardOfProduct{
+    display: flex;
+    background-color: #f9f9fa;
+}
+.cartInformation{
+    background-color: #f9f9fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.eachProductCart{
+    background-color: #f9f9fa;
+}
+
+.infoProduct{
+    background-color: #f9f9fa;
+    padding: 5px;
+}
+.infoProductImg{
+    padding: 15px;
+    background-color: #f9f9fa;
+}
