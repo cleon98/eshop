@@ -16,9 +16,9 @@ const ShoppingCart = (props) => {
 
   const sendOrder = () => {
     let string = ["Hola Evren. Me gustaria adquirir los siguientes products: "];
-    cart.forEach((element) => {
-      const { description, size, price } = element;
-      string.push(`Producto: ${description} Talla: ${size} Precio: ${price}`);
+    cart.forEach((item) => {
+      const { description, size, } = item;
+      string.push(`Producto: ${description} Talla: ${size}`);
     });
     let key = string.join(" - ");
     let url = key.replace(/\s+/g, "%20");
