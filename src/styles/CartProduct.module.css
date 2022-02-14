@@ -2,13 +2,15 @@
 .cardOfProduct{
     display: flex;
     background-color: #f9f9fa;
+    margin: 8px;
 }
 .cartInformation{
     background-color: #f9f9fa;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 25px;
+    font-size: 23px;
+    padding: 30px;
 }
 
 .eachProductCart{
@@ -20,6 +22,15 @@
     padding: 5px;
 }
 .infoProductImg{
-    padding: 15px;
+    padding:20px;
     background-color: #f9f9fa;
+}
+.buttonRemove{
+    background-color: #212529;
+    gap: 1.25rem;    
+    color: #f8f9fa;
+    padding: 10px;
+    border-radius: 0.625rem;
+    font-size: 14px;
+    width: 12.5em;
 }

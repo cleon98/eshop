@@ -18,8 +18,8 @@
 .totalPrice{
     background-color: #f8f9fa;
     text-decoration: underline;
-    font-size: 30px;
-    padding: 20px;
+    font-size: 35px;
+    padding: 30px;
     display: flex;
     justify-content: flex-end;
 }
