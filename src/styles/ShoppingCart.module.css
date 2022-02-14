@@ -1,0 +1,48 @@
+
+.shoppingCartTitle{
+    background-color: #f8f9fa;
+    font-size: 45px;
+    padding: 30px;
+}
+
+.cartConditional, .cartConditional1{
+    background-color: #f8f9fa;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.cartConditional1{
+    padding: 100px;
+}
+
+.totalPrice{
+    background-color: #f8f9fa;
+    text-decoration: underline;
+    font-size: 35px;
+    padding: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+.buttonsCart{
+    display: flex;
+    background-color: #f8f9fa;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+}
+.buttonBuying{
+    padding: 20px;
+    border-radius: 0.625rem;
+    font-size: 1.2em;
+    color: white;
+    width: 12.5em;
+}
+.backToShop{
+    background-color: #f8f9fa;
+    margin-bottom: 1.875rem;
+}
+.buttonBuying:hover{
+    background-color: #EB7D46;
+    color: black;
+    transition: 0.4s;
+}

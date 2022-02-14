@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import { products } from "../data";
 import Navbar from "../components/Navbar";
 import styles from "../styles/JustMen.module.css"
-import ListMen from "../components/ListMen"
+import Product from "../components/Product";
 
 const JustMen = () => {
  
@@ -14,8 +14,8 @@ const JustMen = () => {
       <h1>Hombre</h1>
       </section>
       <div className={styles.stylesMen}>
-      {products.filter((product) => product.gender == "Hombre").map((filteredProduct) => (
-        <ListMen id={filteredProduct.id} category={filteredProduct.category} description={filteredProduct.description}
+      {products.filter((product) => product.gender === "Hombre").map((filteredProduct) => (
+        <Product id={filteredProduct.id} category={filteredProduct.category} description={filteredProduct.description}
         price={filteredProduct.price} size={filteredProduct.size} color={filteredProduct.color} img={filteredProduct.img}
         key={filteredProduct.id}/>
         ))}

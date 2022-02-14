@@ -13,9 +13,17 @@ const Products = () => {
       <h1>Catálogo</h1>
       </section>
       <section className={styles.allProducts} >
-      {products.map(({id, category, description, price, size, color, gender, img})=>(
-          <Product id={id} category={category} description={description} price={price} 
-          size={size} color={color} gender={gender} img={img} key={id}/>
+      {products.map((item, index)=>(
+          <Product id={item.id} 
+          category={item.category} 
+          description={item.description} 
+          price={item.price} 
+          size={item.size} 
+          color={item.color} 
+          item={item} 
+          gender={item.gender} 
+          img={item.img}
+          key={index}/>
 
       ))}
       </section>

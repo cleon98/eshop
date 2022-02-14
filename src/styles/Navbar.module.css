@@ -27,7 +27,9 @@ nav{
     color: white;
     background-color: #212529;
 }
-
+.linkLogo{
+    width: 60px;
+}
 
 .list li{
     cursor: pointer;

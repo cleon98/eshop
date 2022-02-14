@@ -57,3 +57,9 @@
     color: black;
     transition: 0.4s;
 }
+.buttonSizes{
+    background-color: aliceblue;
+    height: 25px;
+    width: 35px;
+    margin: 5px;
+}

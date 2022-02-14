@@ -6,6 +6,7 @@ footer{
     align-items: center;
     padding-right: 1.875rem;
     padding-top: 1.25rem;
+    background-color: #212529;
 }
 .socialmedia{
     display: flex;

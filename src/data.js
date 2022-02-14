@@ -32,7 +32,7 @@ export const products = [
           category: "Gorra",
           description: "Diseño comfort",
           price: 15000,
-          size: [],
+          size: ["Unica"],
           color: "black",
           gender: "Hombre",
           img: "https://jsonformatter.org/img/tom-cruise.jpg"
@@ -126,11 +126,7 @@ export const products = [
           category: "Beanie",
           description: "Diseño warm",
           price: 15000,
-          size: [
-            "s",
-            "m",
-            "l"
-          ],
+          size: ["Unica"],
           color: "Gray",
           gender: "Mujer",
           img: "https://jsonformatter.org/img/tom-cruise.jpg"
