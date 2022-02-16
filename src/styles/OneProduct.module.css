@@ -63,3 +63,26 @@
     width: 35px;
     margin: 5px;
 }
+@media only screen and (max-width: 735px) {
+    .eachProduct{
+        padding: 0;   
+        flex-direction: column;
+        background-color: #f8f9fa;
+        width: 100%;
+    }
+    .eachImage{
+        background-color: #f8f9fa;
+        width: 100%;
+    }
+    .infoProductBox{
+        padding-left: 25px;
+    }
+    .productImg{
+        width: 100%;
+    }
+    .productText{
+        font-size: 25px;
+        padding: 5px;
+    }
+
+}

@@ -33,9 +33,9 @@ const OneProduct = () => {
       <h2 className={styles.productText}>{product.category}</h2>
       <p className={styles.productText}>{product.description}</p>
       <h3 className={styles.productText}>$ {product.price}</h3>
-      <h3 className={styles.productText}>Talla:<br/> {product.size.map((size, index) =>(
-          <button className={styles.buttonSizes} key={index}>{size}</button>
-      ))}</h3>
+      <h3 className={styles.productText}>Talla:<br/> </h3> {product.size.map((size, index) =>(
+          <button className={styles.buttonSizes} value={size} key={index}>{size}</button>
+      ))}
       <h3 className={styles.productText}>Color:<br/>{product.color}</h3>
   </div>
   </div>

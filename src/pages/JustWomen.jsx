@@ -4,6 +4,7 @@ import { products } from "../data";
 import Navbar from "../components/Navbar";
 import styles from "../styles/JustWomen.module.css";
 import Product from "../components/Product";
+import GoToTop from '../components/onTop';
 
 const JustWomen = () => {
   
@@ -21,6 +22,7 @@ const JustWomen = () => {
         ))}
    
    </div>
+   <GoToTop/>
       <Footer />
     </div>
   );

@@ -7,6 +7,7 @@ footer{
     padding-right: 1.875rem;
     padding-top: 1.25rem;
     background-color: #212529;
+    height: auto;
 }
 .socialmedia{
     display: flex;
@@ -33,4 +34,32 @@ footer{
 .owner a{
     text-decoration: none;
     color: white;
+}
+
+@media only screen and (max-width: 915px) {
+    footer{
+        height: 100%;
+        display: flex;
+        padding: 0;
+    }
+    .title, .contact, .social{
+        color: orange;
+        font-size: 10px;
+        padding: 5px;
+    }
+    .mark, .number{
+        font-size: 8px;
+        padding: 5px;
+    }
+    .socialLogo1, .socialLogo2{
+        width: 25px;
+        height: 25px;
+        padding: 5px;
+    }
+    .owner{
+        font-size: 12px;
+        padding: 10px;
+    }
+
+
 }

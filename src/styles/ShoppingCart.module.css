@@ -46,3 +46,14 @@
     color: black;
     transition: 0.4s;
 }
+
+@media only screen and (max-width: 680px){
+    .shoppingCartTitle, .totalPrice{
+        font-size: 35px;
+    }
+}
+@media only screen and (max-width: 520px) {
+    .shoppingCartTitle, .totalPrice{
+        font-size: 25px;
+    }
+}

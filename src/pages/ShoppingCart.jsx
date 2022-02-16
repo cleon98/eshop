@@ -18,7 +18,7 @@ const ShoppingCart = (props) => {
     let string = ["Hola Evren. Me gustaria adquirir los siguientes products: "];
     cart.forEach((item) => {
       const { description, size, } = item;
-      string.push(`Producto: ${description} Talla: ${size}`);
+      string.push(`Producto: ${description} Talla: ${size}, Muchas gracias!`);
     });
     let key = string.join(" - ");
     let url = key.replace(/\s+/g, "%20");
@@ -40,7 +40,7 @@ const ShoppingCart = (props) => {
       <div className={styles.cartConditional}>   
         {cart.length === 0 && <div className={styles.cartConditional1}>Tu carrito esta vacio.</div>}    
       </div>
-      <section>
+      <section className={styles.productInCart}>
       {cart.map((item, index)=>(
           <CartProduct id={item.id} 
           category={item.category} 

@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
-    
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap'); 
 
 *{
     padding: 0;
@@ -8,16 +8,18 @@
 }
 
 /* The evren high moto */
-header{
+.header{
     background-color: #fda95b;
-    height: 6.5rem;
+    height: 6rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: auto;
 }
 /* The evren high image */
 .moto{
     height: 5rem;
+    width: 100%;
     background-color: #fda95b;
 
 }
@@ -64,3 +66,81 @@ article .button2{
     width: 8rem;
 }
 
+@media only screen and (max-width: 915px) {
+    article .button1{
+        top: 65%;
+        width: 7rem;
+        font-size: 0.8rem;
+    }
+    article .button2{
+        top: 80%;
+        width: 7rem;
+        font-size: 0.8rem;
+    }
+}
+@media only screen and (max-width: 701px) {
+    .header{
+        height: 80px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        
+    }
+    .moto{
+        height: auto;
+        background-color: #fda95b;
+    
+    }
+    article .button1{
+        top: 60%;
+        width: 7rem;
+        font-size: 0.8rem;
+    }
+    article .button2{
+        top: 80%;
+        width: 7rem;
+        font-size: 0.8rem;
+    }
+
+}
+@media only screen and (max-width: 575px) {
+    article .button1{
+        top: 60%;
+        width: 5.5rem;
+        font-size: 0.5rem;
+        height: auto;
+    }
+    article .button2{
+        top: 80%;
+        width: 5.5rem;
+        font-size: 0.5rem;
+        height: auto;
+    }
+
+}
+
+@media only screen and (max-width: 451px) {
+    article .button1{
+        top: 60%;
+        width: 4rem;
+        font-size: 0.4rem;
+        height: auto;
+        padding: 8px 0;
+    }
+    article .button2{
+        top: 80%;
+        width: 4rem;
+        font-size: 0.4rem;
+        height: auto;
+        padding: 8px 0;
+    }
+}.header{
+    background-color: #fda95b;
+    height: 6.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}

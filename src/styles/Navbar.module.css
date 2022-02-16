@@ -1,7 +1,9 @@
+
 *{
     background-color: #212529;
 }
-nav{
+
+.navBar{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,31 +13,52 @@ nav{
     padding-right: 20px;
     background-color: #212529;
 }
+
+.navElements{
+    display: flex;
+    align-items: center;
+    
+}
+.textNav{
+    text-align: right;
+    line-height: 70px;
+    height: 70px;
+}
+
+
 /* List; male, female */
-.list{
-    list-style: none;
+.categories{
     color: white;
     display: flex;
     font-size: 20px;
     gap: 40px;
     font-weight: 1000;
-    padding-left: 640px;
+    padding-right: 20px;
     background-color: #212529;
 }
-.list a{
+.categories a{
     text-decoration: none;
     color: white;
-    background-color: #212529;
+    width: 100%;
 }
+
+label{
+    margin: 0 40px 0 0;
+    font-size: 35px;
+    color: white;
+    line-height: 70px;
+    display: none;
+}
+
+input{
+    display: none;
+}
+
 .linkLogo{
     width: 60px;
 }
 
-.list li{
-    cursor: pointer;
-    background-color: #212529;
-}
-.list a:hover{
+.categories a:hover{
     color: orange;
     transition: 0.3s;
 }
@@ -61,4 +84,43 @@ nav{
     cursor: pointer;
     background-color: #212529;
 
+}
+
+@media only screen and (max-width: 701px) {
+
+    label{
+        display: block;
+        cursor: pointer;
+    }
+    .categories{
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .categories a{
+        border-bottom: 5px solid #EB7D46;
+        display: block;
+
+    }
+    input:checked + .categories{
+        display: block;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .textNav{
+        width: 100%;
+    }
+    
+}
+@media only screen and (max-width: 501px) {
+    label{
+        width: 10px;
+    }
+    .logo{
+        width: 80px;
+        height: 80px;
+    }
 }

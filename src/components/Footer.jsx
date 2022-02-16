@@ -12,8 +12,8 @@ const Footer = () => {
             <p className={styles.number}>+57 302 8312 876</p>
             <h3 className={styles.social}>Redes sociales</h3>
             <div className={styles.socialmedia}>
-               <a href="https://www.instagram.com/evren_ib/?hl=es-la" target="_blank"><img src={insta} alt="Redirect to website insta" /></a> 
-                <a href='https://wa.me/573028312876' target="_blank"><img src={whats} alt="Redirect to whatsapp" /></a>
+               <a className={styles.socialLogo1} href="https://www.instagram.com/evren_ib/?hl=es-la" target="_blank"><img className={styles.socialLogo1} src={insta} alt="Redirect to website insta" /></a> 
+                <a className={styles.socialLogo2} href='https://wa.me/573028312876' target="_blank"><img className={styles.socialLogo2} src={whats} alt="Redirect to whatsapp" /></a>
             </div>
             <h3 className={styles.owner}>Sitio web diseñado por: <a href='https://portfolio-cristian.netlify.app/' target="_blank">Cristian <span className={styles.lastName}>Leon</span></a></h3>
         </footer>

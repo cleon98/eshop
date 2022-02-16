@@ -4,6 +4,7 @@ import { products } from "../data";
 import Navbar from "../components/Navbar";
 import styles from "../styles/JustMen.module.css"
 import Product from "../components/Product";
+import GoToTop from '../components/onTop';
 
 const JustMen = () => {
  
@@ -20,6 +21,7 @@ const JustMen = () => {
         key={filteredProduct.id}/>
         ))}
    </div>
+   <GoToTop/>
       <Footer />
     </div>
   );
